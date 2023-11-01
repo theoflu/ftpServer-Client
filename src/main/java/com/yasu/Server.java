@@ -33,7 +33,7 @@ public class Server {
             String targetDirectory = "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\ftpS\\src\\main\\java\\com"; // Değiştirmeniz gereken yer
 
             // Dosya yolu
-            String filePath = targetDirectory  + "ninnasf.mp3";
+            String filePath = targetDirectory  + "ninna.mp3";
 
             FileOutputStream fos = new FileOutputStream(filePath);
             byte[] buffer = new byte[1024];
