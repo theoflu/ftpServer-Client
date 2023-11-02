@@ -12,7 +12,6 @@ public class Server {
             while (true) {
                 Socket clientSocket = serverSocket.accept();
                 System.out.println("İstemci bağlandı: " + clientSocket.getInetAddress());
-
                 // Dosya alımı işlemi
                 //TODO Login işlemi yapılacak
                 receiveFile(clientSocket);
